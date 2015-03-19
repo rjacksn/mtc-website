@@ -16,7 +16,7 @@
           href="img/favicon.png">
 
 
-    <title>March Tennis Club - Home</title>
+    <title>March Tennis Club - Court Booking</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -69,10 +69,10 @@
 
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
-                            <li class="active">
-                                <a href="#" class="nav-link">Home</a>
-                            </li>
                             <li>
+                                <a href="index.html" class="nav-link">Home</a>
+                            </li>
+                            <li class="active">
                                 <a href="courts.html" class="nav-link">Courts</a>
                             </li>
                             <li>
@@ -102,7 +102,7 @@
 
                 <h1 class="tagline">Become a Member Today!</h1>
                 <p class="under-tagline"> March tennis club welcomes you to be a proud member of our community. Sign up now to have access to all club member benefits.</p>
-                <div id="join-btn-wrapper"><a href="courts.html" class="btn btn-lg btn-success join-btn">Sign up today!</a></div>
+                <div id="join-btn-wrapper"><a href="#" class="btn btn-lg btn-success join-btn">Sign up today!</a></div>
             </div>
         </div>
     </div>
@@ -116,88 +116,25 @@
     <br/>
 
     <div class="row">
-        <div class="col-sm-12 content-box">
-            <img id="court-pics" src="img/court_pics.png">
-            <h2 class="">What We Do</h2>
-            <p>Established in 1975, the March Tennis Club is dedicated in providing an atmosphere concentrated on community participation and development of the active family. The club offers everyone of all ages in the community to share in the pleasures of tennis by offering various social events, round robins , and instructional programs. For more details please browse our website. If you have any questions or concerns please email info@marchtennisclub.com</p>
+        <div class="col-sm-8">
+            <h2 class="">Book a Court</h2>
+            <div class="col-sm-2"><img src="img/court_icon.svg"><br/><img src="img/court_icon_used.svg"><br/><img src="img/court_icon.svg"><br/><img src="img/court_icon_used.svg"></div>
+            <div class="col-sm-2"><img src="img/court_icon_red_used.svg"><br/><img src="img/court_icon_red.svg"><br/><img src="img/court_icon_red_used.svg"><br/><img src="img/court_icon_red.svg"></div>
 
-            <p>
-                <a class="btn btn-primary btn-lg" href="#">Sign up today!</a>
-            </p>
         </div>
-    </div>
-    <!-- /.row -->
-
-    <br/><br/>
-
-    <div class="row">
-        <div class="item">
-            <div class="row-fluid">
-                <div class="col-md-3">
-                    <div class="thumbnail">
-                        <img src="img/court_icon.svg">
-                        <div class="caption">
-                            <h3>
-                                Reserve your court now!
-                            </h3>
-                            <p>
-                                At the March Tennis Club, members can book a court online 24 hours in advance. Click the link below to book your court today!
-
-                            </p>
-                            <p>
-                                <a class="btn btn-primary" href="#">Book a court</a><br/>
-                            </p>
-                        </div>
+        <div class="col-md-4">
+            <div class="thumbnail form-box">
+                <img src="img/court_icon.svg">
+                    <div class="login">
+                        <h1>Login to Web App</h1>
+                        <form>
+                            <input class="form-field" type="text" name="login" value="" placeholder="Username or Email"><br/>
+                            <input class="form-field" type="password" name="password" value="" placeholder="Password"><br/>
+                            <input type="submit" class="btn btn-primary" name="commit" value="Login">
+                        </form>
                     </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="thumbnail">
-                        <img alt="300x200" src="img/ball_icon.svg">
-                        <div class="caption">
-                            <h3>
-                                2015 Round Robin and Leagues
-                            </h3>
-                            <p>
-                                The March Tennis Club is happy to offer its members doubles round robin on a regular basis. These round robins consist of doubles play, with a rotation at each half hour. All members are welcomed to every round robin and encouraged to participate. It is a great way to meet other members and playing on a regular basis.</p>
-                            <p>
-                                <a class="btn btn-primary" href="#">Learn more &raquo;</a><br/>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="thumbnail">
-                        <img alt="300x200" src="img/trophy_icon.svg">
-                        <div class="caption">
-                            <h3>
-                                2015 Club Championships
-                            </h3>
-                            <p>
-                                Since the club opened back in 1975, we have been fortunate enough to hold a tournament exclusively for our members. It is a chance for all our members to experience the joy and excitement of the tournament feeling, as well as to see where their game is at with respects to fellow members. It is a week of smiles and laughter along with a chance to enjoy the quality of tennis at the March Tennis Club.
-                            <p>
-                                <a class="btn btn-primary" href="#">Learn more &raquo;</a><br/>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="thumbnail">
-                        <img alt="300x200" src="img/racquet_icon.svg">
-                        <div class="caption">
-                            <h3>
-                                Want to improve your game?
-                            </h3>
-                            <p>
-                                We offer private and semi-private lessons as well as various programs to help you become a better player. These training programs are hosted by the Adamson Tennis Academy.
-                            </p>
-                            <p>
-                                <a class="btn btn-primary" href="#">Learn more &raquo;</a><br/>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div><!--/row-fluid-->
-        </div><!--/item-->
+            </div>
+        </div>
     </div><!-- /.row -->
 </div><!-- /.container -->
 
@@ -287,9 +224,11 @@
                 <div class="col-md-3 footer-rs links"><!-- Links -->
                     <h3>Links</h3>
                     <ul class="links-ls">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="courts.html">Courts</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Courts</a></li>
                         <li><a href="http://www.adamsonstennisacademy.com/programs" target="_blank">Programs</a></li>
+                    </ul>
+                    <ul class="links-rs">
                         <li><a href="http://www.adamsonstennisacademy.com/programs" target="_blank">Lessons</a></li>
                         <li><a href="about.html">About us</a></li>
                     </ul>

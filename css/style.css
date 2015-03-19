@@ -12,6 +12,8 @@ body{
 
 .white{color: #fff !important;}
 
+.align-center{text-align: center}
+
 h1, h2, h3{
     color: #a45449;
     font-family: 'Oxygen', helvetica, sans-serif;
@@ -47,6 +49,7 @@ p{
 
 .navbar{
     background-color: #B9C0B5;
+    opacity: 0.7;
 }
 
 nav{
@@ -91,7 +94,8 @@ nav{
 }
 
 .btn-primary{
-    background-color: #5674b8;
+    background-color: #576072;
+    border-color: #394145;
 }
 
 .btn-primary:hover{
@@ -103,6 +107,10 @@ nav{
     margin-top:15px;
 }
 
+.court-booking{
+    margin-top:4%;
+    text-align: center;
+}
 
 /*! FOOTER ****************************************************************/
 
@@ -210,7 +218,7 @@ ul a:hover{
 
 #fb-link{
     display: block;
-    background: url("../img/f_icon_bw.svg") no-repeat;
+    background: url("../img/f_icon_bw.svg")no-repeat;
     width: 85px;
     height: 85px;
     float: left;
@@ -238,7 +246,7 @@ ul a:hover{
 }
 
 #img-links{
-    margin-top:100px;
+    margin-top:140px;
     padding-top:10px;
     border-top:1px solid #737373;
 }
@@ -251,7 +259,17 @@ ul a:hover{
     margin-bottom: -10px;
 }
 
+/*! FORMS ****************************************************************/
 
+.form-box{
+    border:1px solid #B9C0B5;
+    border-top: none;
+}
+
+.form-field{
+    width: 96%;
+    margin: 2%;
+}
 /*! RESPONSIVE FIX ****************************************************************/
 
 
@@ -277,6 +295,10 @@ ul a:hover{
         font-size: 3.0em !important;
     }
 
+    .nav-link{
+        font-size: 1.0em;
+    }
+
     .content-box{
         width: 100%;
         margin-bottom: 4%;
@@ -287,6 +309,7 @@ ul a:hover{
         clear: both;
         float: none;
         margin-bottom:-4%;
+        text-align: left;
     }
 
     .map{
@@ -314,6 +337,9 @@ ul a:hover{
 
 @media (max-width: 767px) {
 
+    .court-booking{
+        text-align: left;
+    }
     .header {
         height: 100%;
     }
